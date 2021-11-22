@@ -1,0 +1,38 @@
+body {
+    background: #f7b831;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.Question, .ans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49vh;
+}
+
+.bttn {
+    background-color: #5a2cda;
+
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    border: #8d63ff solid 2px;
+    border-radius: 5px;
+
+    text-decoration: none;
+    color: #eee;
+}
+
+.bttn:hover {
+    background-color: #8d63ff;
+    color: #eee;
+}
+
+.bttn:active {
+    background-color: #c4afff;
+    color: #333;
+}

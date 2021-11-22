@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controversial</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <!-- Scripts -->
+    <script src="https://randojs.com/1.0.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/assets/scripts/questionLoader.js"></script>
+</head>
+<body>
+    <div class="Question" id='q'>
+        <h1>Couldn't load question...</h1>
+    </div>
+
+    <div class="ans">
+        <form class="ansForm" id="ansForm" action="/api/data/send/">
+            <input hidden name="qid" id="qid" value=""> 
+            <input type="submit" class=bttn name="answer" value="Yes">
+            <input type="submit" class=bttn name="answer" value="No">
+        </form>
+    </div>
+</body>
+</html>
