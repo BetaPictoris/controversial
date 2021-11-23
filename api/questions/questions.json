@@ -136,6 +136,14 @@
                 "type": "choice",
                 "choices": ["Yes", "No"]
             }
+        },
+
+        "18": {
+            "text": "Twitter?",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "no"]
+            }
         }
     }
 }
