@@ -109,7 +109,16 @@
         "14": {
             "text": "What is fav hate group?",
             "type": {
-                "type": "text"
+                "type": "choice",
+                "choices": ["Nazi", "The Confederates", "White supremacy"]
+            }
+        },
+
+        "15": {
+            "text": "Trump",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
             }
         }
     }
