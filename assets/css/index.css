@@ -1,9 +1,32 @@
+@keyframes background-fade {
+    0% {
+        background-color: #fe6df4;
+    }
+    25% {
+        background-color: #6e6fff;
+    }
+    50% {
+        background-color: #6effcb;
+    }
+    75% {
+        background-color: #ff6e6d;
+    }
+    100% {
+        background-color: #fe6df4;
+    }
+}
+
 body {
-    background: #f7b831;
+    background: #fe6df4;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #333;
     line-height: 1.5;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    animation: background-fade 15s linear infinite;
 }
 
 .main, .startCont {
