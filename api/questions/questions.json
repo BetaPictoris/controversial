@@ -4,8 +4,8 @@
             "text": "How many apples can you fit in a dog?",
             "type": {
                 "type": "scale",
-                "min": 1,
-                "max": 10
+                "min": "1",
+                "max": "10"
             }
         },
 
@@ -13,7 +13,7 @@
             "text": "Cats or dogs?",
             "type": {
                 "type": "choice",
-                "choices": ["cats", "dogs"]
+                "choices": ["Cats", "Dogs"]
             }
         },
 
@@ -21,8 +21,24 @@
             "text": "How many legs does a dog have?",
             "type": {
                 "type": "scale",
-                "min": 5,
-                "max": 10
+                "min": "5",
+                "max": "10"
+            }
+        },
+
+        "4": {
+            "text": "What are your thoughts on scams?",
+            "type": {
+                "type": "choice",
+                "choices": ["Good", "Bad"]
+            }
+        },
+        
+        "5": {
+            "text": "Do you like this game?",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
             }
         }
     }
