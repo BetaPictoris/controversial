@@ -144,6 +144,14 @@
                 "type": "choice",
                 "choices": ["Yes", "no"]
             }
+        }, 
+
+        "19": {
+            "text": "If someone you know cameout as apart of the LGBTQ+ community how would you feel?",
+            "type": {
+                "type": "choice",
+                "choices": ["Good", "Meh", "Bad"]
+            }
         }
     }
 }
