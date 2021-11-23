@@ -40,6 +40,62 @@
                 "type": "choice",
                 "choices": ["Yes", "No"]
             }
+        },
+
+        "6": {
+            "text": "Planned Obsolescence",
+            "type": {
+                "type": "choice",
+                "choices": ["Love it!", "Ehhh...", "I don't like it!"]
+            }
+        },
+
+        "7": {
+            "text": "Florida",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
+        },
+
+        "8": {
+            "text": "Texas",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
+        },
+        
+        "9": {
+            "text": "The earth is flat.",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
+        },
+
+        "10": {
+            "text": "Communism",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
+        },
+
+        "11": {
+            "text": "Socialism",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
+        },
+
+        "12": {
+            "text": "Homophobia, Racism, or Sexism?",
+            "type": {
+                "type": "choice",
+                "choices": ["Homophobia", "Racism", "Sexism"]
+            }
         }
     }
 }
