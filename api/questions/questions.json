@@ -96,6 +96,21 @@
                 "type": "choice",
                 "choices": ["Homophobia", "Racism", "Sexism"]
             }
+        },
+
+        "13": {
+            "text": "Cannibalism",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
+        },
+
+        "14": {
+            "text": "What is fav hate group?",
+            "type": {
+                "type": "text"
+            }
         }
     }
 }
