@@ -120,6 +120,22 @@
                 "type": "choice",
                 "choices": ["Yes", "No"]
             }
+        },
+
+        "16": {
+            "text": "Child endangerment?",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
+        },
+
+        "17": {
+            "text": "If you had a choice would you have been born?",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
         }
     }
 }
