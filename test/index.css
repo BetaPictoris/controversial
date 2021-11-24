@@ -1,0 +1,30 @@
+@keyframes background-fade {
+    0% {
+        background-image: linear-gradient(to bottom right, #6e6fff,#fe6df4);
+    }
+    25% {
+        background-image: linear-gradient(to bottom right, #6effcb,#6e6fff);
+    }
+    50% {
+        background-color: #6effcb;
+    }
+    75% {
+        background-color: #ff6e6d;
+    }
+    100% {
+        background-color: #fe6df4;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    height: 100vh;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    animation: background-fade 15s linear infinite;
+}
