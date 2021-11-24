@@ -1,10 +1,33 @@
+// COOKIES!!! :D Yum!
+function getCookie(cname) {
+   let name = cname + "=";
+   let decodedCookie = decodeURIComponent(document.cookie);
+   let ca = decodedCookie.split(';');
+   for(let i = 0; i <ca.length; i++) {
+     let c = ca[i];
+     while (c.charAt(0) == ' ') {
+       c = c.substring(1);
+     }
+     if (c.indexOf(name) == 0) {
+       return c.substring(name.length, c.length);
+     }
+   }
+   return "";
+}
+
 // Set Question
 var url = "/api/questions/questions.json";
 
 var xhr = new XMLHttpRequest();
 xhr.open("GET", url);
 
-var ansID = rando(1,19);
+//var ansID = rando(1,19);
+var maxQs = 22;
+var ansID = getCookie("qid").toString();
+
+if (ansID > maxQs) {
+   location.replace("/finish")
+}
 
 xhr.onreadystatechange = function () {
    if (xhr.readyState === 4) {
@@ -71,3 +94,5 @@ x.onreadystatechange = function () {
 
 x.send();
 
+var qid = parseInt( ansID ) + 1
+document.cookie = "qid=" + qid.toString();

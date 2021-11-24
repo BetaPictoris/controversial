@@ -155,6 +155,30 @@
         }, 
 
         "20": {
+            "text": "Is cereal a soup?",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
+        },
+
+        "21": {
+            "text": "Is the bunny an alcoholic?",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
+        },
+
+        "22": {
+            "text": "Is a preborn child alive?",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
+        },
+
+        "23": {
             "text": "",
             "type": {
                 "type": ""
