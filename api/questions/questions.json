@@ -142,7 +142,7 @@
             "text": "Twitter?",
             "type": {
                 "type": "choice",
-                "choices": ["Yes", "no"]
+                "choices": ["Yes", "No"]
             }
         }, 
 
