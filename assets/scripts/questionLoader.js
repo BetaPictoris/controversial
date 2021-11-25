@@ -1,3 +1,5 @@
+// FIXME: Allways replaces location to /finish
+
 // COOKIES!!! :D Yum!
 function getCookie(cname) {
    let name = cname + "=";
