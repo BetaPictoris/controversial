@@ -1,5 +1,3 @@
-// FIXME: Allways replaces location to /finish
-
 // COOKIES!!! :D Yum!
 function getCookie(cname) {
    let name = cname + "=";
@@ -27,9 +25,9 @@ xhr.open("GET", url);
 var maxQs = 22;
 var ansID = getCookie("qid").toString();
 
-// if (ansID > maxQs) {
-//    location.replace("/finish")
-// }
+if (ansID > maxQs) {
+   location.replace("/finish")
+}
 
 xhr.onreadystatechange = function () {
    if (xhr.readyState === 4) {
