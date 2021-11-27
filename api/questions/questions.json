@@ -179,9 +179,18 @@
         },
 
         "23": {
-            "text": "",
+            "text": "Is a tomato a fruit or vegetable?",
             "type": {
-                "type": ""
+                "type": "choice",
+                "choices": ["Fruit", "Vegetable"]
+            }
+        },
+
+        "24": {
+            "text": "What is Santa's outfit?",
+            "type": {
+                "type": "choice",
+                "choices": ["Festive gear", "Work outfit"]
             }
         }
     }
