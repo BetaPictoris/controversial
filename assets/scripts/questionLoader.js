@@ -22,7 +22,7 @@ var xhr = new XMLHttpRequest();
 xhr.open("GET", url);
 
 //var ansID = rando(1,22);
-var maxQs = 24;
+var maxQs = 25;
 var ansID = getCookie("qid").toString();
 
 if (ansID > maxQs) {

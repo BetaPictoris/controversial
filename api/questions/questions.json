@@ -192,6 +192,14 @@
                 "type": "choice",
                 "choices": ["Festive gear", "Work outfit"]
             }
+        },
+
+        "25": {
+            "text": "Tea?",
+            "type": {
+                "type": "choice",
+                "choices": ["Yes", "No"]
+            }
         }
     }
 }
