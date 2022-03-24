@@ -200,6 +200,38 @@
                 "type": "choice",
                 "choices": ["Yes", "No"]
             }
+        },
+
+        "26": {
+            "text": "What is the sun?",
+            "type": {
+                "type": "choice",
+                "choices": ["A graveyard", "A bomb", "A Nazi"]
+            }
+        },
+
+        "27": {
+            "text": "Yes",
+            "type": {
+                "type": "choice",
+                "choices": ["No", "No", "No"]
+            }
+        },
+
+        "28": {
+            "text": "At what age should children be able to run away from home and never come back?",
+            "type": {
+                "type": "scale",
+                "min": "24",
+                "max": "29"
+            }
+        },
+
+        "29": {
+            "text": "Name something that is near you.",
+            "type": {
+                "type": "text"
+            }
         }
     }
 }
